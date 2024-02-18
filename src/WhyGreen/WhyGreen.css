@@ -1,0 +1,47 @@
+.title {
+  font-size: 60px;
+  width: 40vw;
+  font-family: "Oswald", "sans-serif";
+  color: #ffffff;
+}
+
+.firstHeading {
+  font-size: 48px;
+  width: 40vw;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  color: #333;
+  font-family: "Babas Neue", "sans-serif";
+}
+
+.secondHeading {
+  font-size: 48px;
+  width: 40vw;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  color: #333;
+  font-family: "Babas Neue", "sans-serif";
+}
+
+.thirdHeading {
+  font-size: 48px;
+  width: 40vw;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  color: #333;
+  font-family: "Babas Neue", "sans-serif";
+}
+
+.firstDescription {
+  font-size: 14px;
+  font-family: "Open Sans", "sans-serif";
+  color: #ffffff;
+  width: 45vw;
+}
+
+.secondDescription {
+  font-size: 14px;
+  font-family: "Open Sans", "sans-serif";
+  color: #ffffff;
+  width: 45vw;
+}
