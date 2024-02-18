@@ -19,7 +19,7 @@
   width: 40vw;
   margin-bottom: 5vh;
   text-transform: uppercase;
-  color: #333;
+  color: #ffffff;
   font-family: "Babas Neue", "sans-serif";
 }
 
@@ -35,13 +35,63 @@
 .firstDescription {
   font-size: 14px;
   font-family: "Open Sans", "sans-serif";
-  color: #ffffff;
+  color: #000000;
   width: 45vw;
 }
 
 .secondDescription {
   font-size: 14px;
   font-family: "Open Sans", "sans-serif";
-  color: #ffffff;
+  color: #000000;
   width: 45vw;
 }
+
+.firstDropdownDescription {
+  font-size: 14px;
+  font-family: "Open Sans", "sans-serif";
+  color: #000000;
+  width: 45vw;
+}
+
+.secondDropdownDescription {
+  font-size: 14px;
+  font-family: "Open Sans", "sans-serif";
+  color: #000000;
+  width: 45vw;
+}
+
+.thirdDropdownDescription {
+  font-size: 14px;
+  font-family: "Open Sans", "sans-serif";
+  color: #000000;
+  width: 45vw;
+}
+
+<style>
+.dropdownSolar {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentSolar {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="dropdownSolar">
+  <span>Mouse over me</span>
+  <div class="dropdown-contentSolar">
+    <p>Solar power is the conversion of energy from sunlight into electricity. It involves the usage of solar panels, comprised of thousands of individual solar cells. These panels are usually fixed on top of roofs, placed on the ground or attached to moving objects. Solar has been used to power homes, air conditioning, dryers and various other applications. It has also been used by NASA to power their satellites. 
+</p>
+  </div>
+</div>
