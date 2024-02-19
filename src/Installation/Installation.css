@@ -1,0 +1,38 @@
+.installationContainer {
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("../assets/installation.jpg");
+  background-size: 1450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.installationTitle {
+  z-index: 1;
+  font-size: 4rem;
+  width: 40vw;
+  font-family: "Oswald", "sans-serif";
+  text-transform: uppercase;
+  color: white;
+}
+
+.installationMethodsContainer {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 15vh;
+}
+
+.installationMethodsTitle {
+  font-size: 3rem;
+  font-family: "Oswald", "sans-serif";
+  color: #00bfa6;
+  text-transform: uppercase;
+}
