@@ -17,7 +17,10 @@ function Header() {
           Why
         </a>
         <a href="/installation" className="navOption">
-          How
+          Installation
+        </a>
+        <a href="/works-cited" className="navOption">
+          Works Cited
         </a>
       </div>
     </div>

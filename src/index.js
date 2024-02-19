@@ -6,6 +6,7 @@ import WhyGreen from "./WhyGreen/WhyGreen";
 import Installation from "./Installation/Installation";
 import Home from "./Home/Home";
 import Costs from "./Costs/Costs";
+import WorksCited from "./worksCited/worksCited";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/installation",
     element: <Installation />,
+  },
+  {
+    path: "/works-cited",
+    element: <WorksCited />,
   },
 ]);
 
