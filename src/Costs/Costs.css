@@ -1,9 +1,17 @@
-.firstContainer {
+.firstContainerCosts {
   display: flex;
   width: 100vw;
+  text-align: center;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("greenenergy.png");
+  background-size: 1450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .leftContainer {
@@ -12,10 +20,12 @@
   gap: 1rem;
 }
 
-.homeTitle {
-  font-size: 3rem;
+.titleCosts {
+  font-size: 4rem;
   width: 40vw;
-  font-family: "Lexend", "sans-serif";
+  font-family: "Oswald", "sans-serif";
+  text-decoration: underline;
+  color: white;
 }
 
 .description {
@@ -58,32 +68,44 @@
   width: 45vw;
 }
 
-.thirdContainer {
+.thirdContainercosts {
   display: flex;
   width: 100vw;
   box-sizing: border-box;
+  display: grid;
   align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   justify-content: center;
-  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 6rem;
 }
 
-.thirdTitle {
+.thirdTitlecosts {
+  padding-top: 2rem;
   font-size: 3rem;
   width: 40vw;
   font-family: "Oswald", "sans-serif";
   color: #333;
-  margin-bottom: 5vh;
+
   text-transform: uppercase;
+  padding-left: 3rem;
 }
 
-.thirdDescription {
+.thirdDescriptioncosts {
+  align-items: left;
   font-size: 1.25rem;
   font-family: "Lexend", "sans-serif";
   color: #aeaeae;
-  width: 45vw;
+  width: 62vw;
+}
+
+.wrap {
+  float: right;
+  margin: 5px;
+  text-wrap: wrap;
 }
 
 .fourthContainer {
@@ -108,18 +130,18 @@
   text-transform: uppercase;
 }
 
-.readyToGetStartedBtn {
-  background: #00bfa6;
+.costsImgContainer {
   display: flex;
-  width: 8vw;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  border-radius: 10px;
-  font-family: "Open Sans", "sans-serif";
-  color: white;
+  flex-direction: column;
 }
 
-.readyToGetStartedBtn:hover {
-  cursor: pointer;
+.credit {
+  color: #aeaeae;
+  font-family: "Lexend", "sans-serif";
+}
+
+.credit > a {
+  color: #aeaeae;
+  font-family: "Lexend", "sans-serif";
+  text-decoration: underline;
 }

@@ -17,7 +17,7 @@ const Home = () => {
       <div className="homeContainer">
         <div className="firstContainer">
           <div className="leftContainer">
-            <span className="title">GreenWise Home Initiatives</span>
+            <span className="homeTitle">GreenWise Home Initiatives</span>
             <span className="description">
               Unlock sustainable living with GreenWise Home Initiatives – your
               go-to resource for eco-friendly solutions and practices.
