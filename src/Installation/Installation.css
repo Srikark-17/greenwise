@@ -36,3 +36,11 @@
   color: #00bfa6;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 767px) {
+  .differentTypesOfEnergyContainer {
+    flex-direction: column !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

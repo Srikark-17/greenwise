@@ -123,3 +123,33 @@
   font-family: "Lexend", "sans-serif";
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 767px) {
+  .thirdTitlecosts {
+    text-align: center;
+    align-self: center;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thirdContainercosts {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .costImgContainer > img {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrap {
+    float: none;
+    margin: 0;
+    text-wrap: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
