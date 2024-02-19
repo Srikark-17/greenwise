@@ -108,28 +108,6 @@
   text-wrap: wrap;
 }
 
-.fourthContainer {
-  background: #e5f9f6;
-  display: flex;
-  width: 100vw;
-  box-sizing: border-box;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.fourthTitle {
-  font-size: 3rem;
-  width: 40vw;
-  font-family: "Oswald", "sans-serif";
-  color: #333;
-  margin-bottom: 5vh;
-  text-transform: uppercase;
-}
-
 .costsImgContainer {
   display: flex;
   flex-direction: column;
