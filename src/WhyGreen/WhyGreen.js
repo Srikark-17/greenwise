@@ -374,3 +374,74 @@ const WhyGreen = () => {
               />
             </svg>
           )}
+        </div>
+        {hydroDropdown ? (
+          <span className="differentTypesOfEnergyDropdownDescription">
+            Hydroelectric power, is a form of renewable energy that uses the
+            power of water in motion to generate electricity. Hydropower can use
+            the water stored in dams, or the natural flow of rivers and
+            waterfalls, to rotate turbines that spin generators. Hydropower is
+            one of the oldest and largest sources of renewable energy, supplying
+            about one sixth of the world's electricity and more than all other
+            renewable sources combined.
+          </span>
+        ) : (
+          <></>
+        )}
+
+        <div
+          onClick={() => setGeoDropdown(!geoDropdown)}
+          className="differentTypesOfEnergyDropdown"
+        >
+          <span
+            style={{ color: "#b45f06" }}
+            className="differentTypesOfEnergyDropdownTitle"
+          >
+            Geothermal
+          </span>
+          {geoDropdown ? (
+            <svg
+              class="svg"
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M767.448 622.856a29.984 29.984 0 0 1-21.288-8.824L511.992 379.912l-234.16 234.128c-11.76 11.76-30.808 11.76-42.568 0s-11.76-30.808 0-42.568l255.44-255.408a30.072 30.072 0 0 1 42.552 0l255.472 255.408a30.088 30.088 0 0 1-21.28 51.384z"
+                fill="#888888"
+              />
+            </svg>
+          ) : (
+            <svg
+              class="svg"
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M507.8 727.728a30.016 30.016 0 0 1-21.288-8.824L231.104 463.496a30.088 30.088 0 0 1 0-42.568 30.088 30.088 0 0 1 42.568 0l234.128 234.128 234.16-234.128a30.088 30.088 0 0 1 42.568 0 30.088 30.088 0 0 1 0 42.568L529.08 718.904a30 30 0 0 1-21.28 8.824z"
+                fill="#888888"
+              />
+            </svg>
+          )}
+        </div>
+        {geoDropdown ? (
+          <span className="differentTypesOfEnergyDropdownDescription">
+            Geothermal Energy is a form of renewable energy that utilizes the
+            heat within the earth. Heat from Earth’s interior generates surface
+            phenomena such as lava flows, geysers, fumaroles, hot springs, and
+            mud pots, which then are used for geothermal energy. Geothermal
+            energy is used to heat baths, heat buildings, and for generating
+            electricity. By using steam from geothermal sources, we can generate
+            clean electricity.
+          </span>
+        ) : (
+          <></>
+        )}
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default WhyGreen;
