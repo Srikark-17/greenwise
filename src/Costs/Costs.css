@@ -130,6 +130,7 @@
 .credit {
   color: #aeaeae;
   font-family: "Lexend", "sans-serif";
+  position:absolute; right:95px; top:1235px;
 }
 
 .credit > a {
