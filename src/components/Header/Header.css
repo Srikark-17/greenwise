@@ -11,7 +11,12 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
-.leftContainer > a {
+.header > svg {
+  display: block;
+}
+
+.leftContainer > a,
+.optionsContainer > a {
   font-size: x-large;
   font-weight: 500;
   color: black;
@@ -35,4 +40,50 @@
 .rightHeaderContainer > a:hover {
   color: #00bfa6;
   transition: 0.2s;
+}
+
+.sidebar {
+  background: #ffffff;
+  height: 100vh; /* Updated to 100vh */
+  width: 50%;
+  border: none; /* Removed the border */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Added to center the content vertically */
+  flex-direction: column;
+  padding: 2rem;
+  position: fixed; /* Changed to fixed for better positioning */
+  top: 0;
+  left: 0;
+  z-index: 999; /* Added to ensure the sidebar appears above other elements */
+  box-shadow: 0 8px 32px 0 rgba(30, 30, 30, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.optionsContainer {
+  background: transparent;
+  margin-right: 20vw;
+  margin-top: 5rem;
+}
+
+.optionsContainer > span {
+  display: block;
+  background: transparent;
+  margin-bottom: 2rem;
+}
+
+.menuIcon {
+  display: block;
+  color: #fff; /* Added color for the icon */
+  font-size: 2rem; /* Adjust the size as desired */
+  background: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
