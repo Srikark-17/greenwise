@@ -4,6 +4,7 @@
   width: 100vw;
   text-align: center;
   box-sizing: border-box;
+  z-index: -999;
   align-items: center;
   justify-content: space-around;
   padding-top: 8rem;
