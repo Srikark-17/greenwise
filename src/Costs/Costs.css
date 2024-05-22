@@ -68,7 +68,7 @@
   width: 45vw;
 }
 
-.thirdContainercosts {
+.thirdContainerCosts {
   display: flex;
   width: 100vw;
   box-sizing: border-box;
@@ -83,7 +83,7 @@
   padding-left: 6rem;
 }
 
-.thirdTitlecosts {
+.thirdTitleCosts {
   padding-top: 2rem;
   font-size: 3rem;
   width: 40vw;
@@ -94,7 +94,7 @@
   padding-left: 3rem;
 }
 
-.thirdDescriptioncosts {
+.thirdDescriptionCosts {
   align-items: left;
   font-size: 1.25rem;
   font-family: "Lexend", "sans-serif";

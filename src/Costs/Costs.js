@@ -26,11 +26,11 @@ const Costs = () => {
             billion per year. 
           </span>
         </div>
-        <div className="thirdTitlecosts">
-          <span className="thirdTitlecosts">Tax Rebates</span>
+        <div className="thirdTitleCosts">
+          <span className="thirdTitleCosts">Tax Rebates</span>
         </div>
-        <div className="thirdContainercosts">
-          <span className="thirdDescriptioncosts">
+        <div className="thirdContainerCosts">
+          <span className="thirdDescriptionCosts">
             As a homeowner, if you switch to green energy, the government will
             provide you with tax credits for things such as rooftop solar, wind
             energy, geothermal heat pumps and battery storage. You can claim the
