@@ -12,7 +12,7 @@ span:hover {
   padding-top: 8rem;
   z-index: -999;
   padding-bottom: 8rem;
-  background-image: url("../assets/installation.jpg");
+  background-image: url("../assets/new_installation.jpeg");
   background-size: 1450px;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,6 +29,7 @@ span:hover {
   height: 100%;
   background-color: #000000;
   opacity: 0.4; /* Adjust the opacity here */
+  image-rendering:optimizeQuality;
 }
 
 .installationTitle {
