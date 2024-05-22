@@ -143,7 +143,50 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .differentTypesOfEnergyDropdown > svg {
-    display: block;
+  .greenInfoTitle {
+    text-align: center;
+  }
+  .greenInfoDescription {
+    width: 80vw;
+  }
+  .whyGoGreenContainer {
+    padding: 2rem 0 !important;
+  }
+  .leftGoGreenContainer {
+    width: 100vw !important;
+  }
+  .whyGoGreenTitle {
+    text-align: center;
+    width: 90vw !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whyGoGreenDescription {
+    width: 80vw !important;
+  }
+  .differentTypesOfEnergyContainerWhy {
+    padding: 2rem 0 !important;
+  }
+  .differentTypesOfEnergyWhyTitle {
+    text-align: center;
+    align-self: center;
+    width: 90vw !important;
+  }
+  .differentTypesOfEnergyWhyDropdown {
+    width: 70vw !important;
+    align-self: center;
+    padding-right: 0.5rem;
+  }
+  .differentTypesOfEnergyWhyDropdownTitle {
+    width: 50vw;
+  }
+
+  .svg {
+    display: block !important;
+  }
+  .differentTypesOfEnergyWhyDropdownDescription {
+    width: 68vw !important;
+    align-self: center;
+    text-align: center;
   }
 }
