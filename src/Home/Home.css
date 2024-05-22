@@ -125,10 +125,44 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .leftContainer {
-    text-align: center;
+  .firstContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .firstContainer > .leftContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .leftContainer,
+  .homeTitle,
+  .description,
+  .secondTitle,
+  .thirdTitle,
+  .fourthTitle {
+    text-align: center !important;
+    width: 100vw !important;
+  }
+  .secondDescription,
+  .thirdDescription {
+    width: 80vw !important;
+  }
+  .homeTitle,
+  .secondTitle,
+  .thirdTitle,
+  .fourthTitle {
+    font-size: 2.5rem !important;
+  }
+  .description {
+    width: 80vw !important;
+    margin-top: 3vh;
   }
   svg {
     display: none;
+  }
+  .readyToGetStartedBtn {
+    width: 60vw !important;
   }
 }
