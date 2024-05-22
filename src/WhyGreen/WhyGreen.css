@@ -97,7 +97,7 @@
   cursor: default;
 }
 
-.differentTypesOfEnergyContainer {
+.differentTypesOfEnergyContainerWhy {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -106,14 +106,14 @@
   margin-bottom: 4rem;
 }
 
-.differentTypesOfEnergyTitle {
+.differentTypesOfEnergyWhyTitle {
   font-size: 3rem;
   font-family: "Oswald", "sans-serif";
   color: #00bfa6;
   text-transform: uppercase;
 }
 
-.differentTypesOfEnergyDropdown {
+.differentTypesOfEnergyWhyDropdown {
   padding-left: 1rem;
   padding-right: 3rem;
   padding-top: 1rem;
@@ -124,13 +124,13 @@
   border-bottom: 1px solid;
 }
 
-.differentTypesOfEnergyDropdownTitle {
+.differentTypesOfEnergyWhyDropdownTitle {
   font-family: "Oswald", "sans-serif";
   font-size: 2rem;
   text-transform: uppercase;
 }
 
-.differentTypesOfEnergyDropdownDescription {
+.differentTypesOfEnergyWhyDropdownDescription {
   color: #aeaeae;
   font-family: "Open Sans", "sans-serif";
   font-size: 1rem;

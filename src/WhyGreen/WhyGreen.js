@@ -236,17 +236,17 @@ const WhyGreen = () => {
         </div>
       </div>
 
-      <div className="differentTypesOfEnergyContainer">
-        <span className="differentTypesOfEnergyTitle">
+      <div className="differentTypesOfEnergyContainerWhy">
+        <span className="differentTypesOfEnergyWhyTitle">
           Different Types of Energy
         </span>
         <div
           onClick={() => setSolarDropdown(!solarDropdown)}
-          className="differentTypesOfEnergyDropdown"
+          className="differentTypesOfEnergyWhyDropdown"
         >
           <span
             style={{ color: "#e06666" }}
-            className="differentTypesOfEnergyDropdownTitle"
+            className="differentTypesOfEnergyWhyDropdownTitle"
           >
             Solar
           </span>
@@ -277,7 +277,7 @@ const WhyGreen = () => {
           )}
         </div>
         {solarDropdown ? (
-          <span className="differentTypesOfEnergyDropdownDescription">
+          <span className="differentTypesOfEnergyWhyDropdownDescription">
             Solar power is the conversion of energy from sunlight into
             electricity. It involves the usage of solar panels, comprised of
             thousands of individual solar cells. These panels are usually fixed
@@ -292,11 +292,11 @@ const WhyGreen = () => {
 
         <div
           onClick={() => setWindDropdown(!windDropdown)}
-          className="differentTypesOfEnergyDropdown"
+          className="differentTypesOfEnergyWhyDropdown"
         >
           <span
             style={{ color: "#f1c232" }}
-            className="differentTypesOfEnergyDropdownTitle"
+            className="differentTypesOfEnergyWhyDropdownTitle"
           >
             Wind
           </span>
@@ -327,7 +327,7 @@ const WhyGreen = () => {
           )}
         </div>
         {windDropdown ? (
-          <span className="differentTypesOfEnergyDropdownDescription">
+          <span className="differentTypesOfEnergyWhyDropdownDescription">
             Wind power is the conversion of energy from natural winds into
             electricity. It involves the usage of windmills, comprised of a
             foundation, the tower, the rotor hub, the nacelle, and the
@@ -341,11 +341,11 @@ const WhyGreen = () => {
 
         <div
           onClick={() => setHydroDropdown(!hydroDropdown)}
-          className="differentTypesOfEnergyDropdown"
+          className="differentTypesOfEnergyWhyDropdown"
         >
           <span
             style={{ color: "#6d9eeb" }}
-            className="differentTypesOfEnergyDropdownTitle"
+            className="differentTypesOfEnergyWhyDropdownTitle"
           >
             Hydroelectricity
           </span>
@@ -376,7 +376,7 @@ const WhyGreen = () => {
           )}
         </div>
         {hydroDropdown ? (
-          <span className="differentTypesOfEnergyDropdownDescription">
+          <span className="differentTypesOfEnergyWhyDropdownDescription">
             Hydroelectric power, is a form of renewable energy that uses the
             power of water in motion to generate electricity. Hydropower can use
             the water stored in dams, or the natural flow of rivers and
@@ -391,11 +391,11 @@ const WhyGreen = () => {
 
         <div
           onClick={() => setGeoDropdown(!geoDropdown)}
-          className="differentTypesOfEnergyDropdown"
+          className="differentTypesOfEnergyWhyDropdown"
         >
           <span
             style={{ color: "#b45f06" }}
-            className="differentTypesOfEnergyDropdownTitle"
+            className="differentTypesOfEnergyWhyDropdownTitle"
           >
             Geothermal
           </span>
@@ -426,7 +426,7 @@ const WhyGreen = () => {
           )}
         </div>
         {geoDropdown ? (
-          <span className="differentTypesOfEnergyDropdownDescription">
+          <span className="differentTypesOfEnergyWhyDropdownDescription">
             Geothermal Energy is a form of renewable energy that utilizes the
             heat within the earth. Heat from Earth’s interior generates surface
             phenomena such as lava flows, geysers, fumaroles, hot springs, and

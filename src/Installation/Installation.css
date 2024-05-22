@@ -1,3 +1,7 @@
+span:hover {
+  cursor: default;
+}
+
 .installationContainer {
   display: flex;
   width: 100vw;
