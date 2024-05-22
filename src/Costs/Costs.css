@@ -125,14 +125,22 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .thirdTitlecosts {
+  .firstContainerCosts {
+    overflow: hidden;
+  }
+  .leftContainer {
+    width: 100vw !important;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .thirdTitleCosts {
     text-align: center;
     align-self: center;
     padding-left: 0;
     margin-left: auto;
     margin-right: auto;
   }
-  .thirdContainercosts {
+  .thirdContainerCosts {
     flex-direction: column;
     display: flex;
     text-align: center;
@@ -140,9 +148,15 @@
     justify-content: center;
     padding-left: 0;
   }
+  .thirdDescriptionCosts {
+    font-size: 1rem !important;
+    width: 80vw !important;
+    margin-top: 2vh;
+  }
   .costImgContainer > img {
     width: 100vw;
     margin-left: auto;
+    margin-top: 3vh;
     margin-right: auto;
   }
   .wrap {
