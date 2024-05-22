@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="leftFooter">
         <span className="footerText">Technology Student Association</span>
-        <span className="footerText">TN State Leadership Conference 2024</span>
+        <span className="footerText">National Conference 2024</span>
         <span className="footerText">Webmaster</span>
       </div>
     </div>
