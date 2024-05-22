@@ -49,9 +49,10 @@
 
 .greenInfoDescription {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Open Sans", "sans-serif";
-  width: 75vw;
+  width: 46.5vw;
+  color: #aaaaaa;
 }
 
 .whyGoGreenContainer {
@@ -81,9 +82,19 @@
 
 .whyGoGreenDescription {
   color: #aeaeae;
-  list-style-type: square;
+  list-style-type: disc;
   font-family: "Open Sans", "sans-serif";
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.whyGoGreenDescription > li {
+  margin: 1rem 0;
+}
+
+.whyGoGreenDescription > li:hover {
+  transition: 0.5s;
+  color: #00bfa6;
+  cursor: default;
 }
 
 .differentTypesOfEnergyContainer {
