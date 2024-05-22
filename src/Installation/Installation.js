@@ -71,6 +71,7 @@ const Installation = () => {
                 style={{ width: "40vw" }}
                 className="differentTypesOfEnergyDropdownDescription"
               >
+                <br></br>
                 To install solar, one must find a solar contractor who
                 specializes in installing solar panels for homes. To ensure they
                 are qualified and certified, make sure they hold the
