@@ -17,21 +17,17 @@ const Installation = () => {
       </div>
       <div className="installationMethodsContainer">
         <span className="installationMethodsTitle">Installation Methods</span>
-        <div
-          style={{ flexDirection: "row" }}
-          className="differentTypesOfEnergyContainer"
-        >
+        <div className="differentTypesOfEnergyContainer">
           <div
             className={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              gap: "1rem",
+              border: "1px solid black",
             }}
           >
             <div
               onClick={() => setSolarDropdown(!solarDropdown)}
-              style={{ width: "40vw" }}
               className="differentTypesOfEnergyDropdown"
             >
               <span
@@ -67,11 +63,7 @@ const Installation = () => {
               )}
             </div>
             {solarDropdown ? (
-              <span
-                style={{ width: "40vw" }}
-                className="differentTypesOfEnergyDropdownDescription"
-              >
-                <br></br>
+              <span className="differentTypesOfEnergyDropdownDescription">
                 To install solar, one must find a solar contractor who
                 specializes in installing solar panels for homes. To ensure they
                 are qualified and certified, make sure they hold the
@@ -85,7 +77,6 @@ const Installation = () => {
               <></>
             )}
             <div
-              style={{ width: "40vw" }}
               onClick={() => setGeoDropdown(!geoDropdown)}
               className="differentTypesOfEnergyDropdown"
             >
@@ -122,11 +113,7 @@ const Installation = () => {
               )}
             </div>
             {geoDropdown ? (
-              <span
-                className="differentTypesOfEnergyDropdownDescription"
-                style={{ width: "40vw" }}
-              >
-                <br></br>
+              <span className="differentTypesOfEnergyDropdownDescription">
                 Installing geothermal pumps is tricky business, especially when
                 trying to find out if geothermal is a viable option in your
                 area. For geothermal technologies to operate, Factors such as
@@ -152,7 +139,6 @@ const Installation = () => {
           >
             <div
               onClick={() => setWindDropdown(!windDropdown)}
-              style={{ width: "40vw" }}
               className="differentTypesOfEnergyDropdown"
             >
               <span
@@ -188,11 +174,7 @@ const Installation = () => {
               )}
             </div>
             {windDropdown ? (
-              <span
-                className="differentTypesOfEnergyDropdownDescription"
-                style={{ width: "40vw" }}
-              >
-                <br></br>
+              <span className="differentTypesOfEnergyDropdownDescription">
                 Wind power goes hand in hand with agriculture, due to the
                 expansive space required to install it. When installing, a
                 farmer has 2 choices, either doing an installation themselves,
@@ -214,7 +196,6 @@ const Installation = () => {
             <div
               onClick={() => setHydroDropdown(!hydroDropdown)}
               className="differentTypesOfEnergyDropdown"
-              style={{ width: "40vw" }}
             >
               <span
                 style={{ color: "#6d9eeb" }}
@@ -249,11 +230,7 @@ const Installation = () => {
               )}
             </div>
             {hydroDropdown ? (
-              <span
-                className="differentTypesOfEnergyDropdownDescription"
-                style={{ width: "40vw" }}
-              >
-                <br></br>
+              <span className="differentTypesOfEnergyDropdownDescription">
                 To build a micro-hydropower system, you need access to flowing
                 water on your property. A sufficient quantity of falling water
                 must be available, which usually, but not always, means that

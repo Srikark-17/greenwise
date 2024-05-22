@@ -37,6 +37,26 @@
   text-transform: uppercase;
 }
 
+.differentTypesOfEnergyContainer {
+  flex-direction: row;
+  display: flex;
+}
+
+.differentTypesOfEnergyDropdown {
+  width: 40vw;
+  margin-top: 4rem;
+}
+
+.differentTypesOfEnergyDropdownDescription {
+  color: #aeaeae;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 1rem;
+  padding-right: 5vw;
+  margin-left: 2vw;
+  display: inline-block;
+  margin-top: 2vh;
+}
+
 @media only screen and (max-width: 767px) {
   .differentTypesOfEnergyContainer {
     flex-direction: column !important;
