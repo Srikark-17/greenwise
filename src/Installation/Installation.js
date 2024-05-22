@@ -126,6 +126,7 @@ const Installation = () => {
                 className="differentTypesOfEnergyDropdownDescription"
                 style={{ width: "40vw" }}
               >
+                <br></br>
                 Installing geothermal pumps is tricky business, especially when
                 trying to find out if geothermal is a viable option in your
                 area. For geothermal technologies to operate, Factors such as
@@ -191,6 +192,7 @@ const Installation = () => {
                 className="differentTypesOfEnergyDropdownDescription"
                 style={{ width: "40vw" }}
               >
+                <br></br>
                 Wind power goes hand in hand with agriculture, due to the
                 expansive space required to install it. When installing, a
                 farmer has 2 choices, either doing an installation themselves,
@@ -251,6 +253,7 @@ const Installation = () => {
                 className="differentTypesOfEnergyDropdownDescription"
                 style={{ width: "40vw" }}
               >
+                <br></br>
                 To build a micro-hydropower system, you need access to flowing
                 water on your property. A sufficient quantity of falling water
                 must be available, which usually, but not always, means that
