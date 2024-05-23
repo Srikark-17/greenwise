@@ -71,7 +71,7 @@ const Costs = () => {
             </span>
           </div>
 
-          <span class="fourthDescription">
+          <span class="fourthDescriptionCosts">
             Residential renewable energy prices have been steadily declining
             over the past few years. With solar and wind power becoming
             increasingly affordable, now is the perfect time for homeowners to

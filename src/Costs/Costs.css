@@ -156,7 +156,7 @@
   margin-top: 4vh;
 }
 
-.fourthDescription {
+.fourthDescriptionCosts {
   text-align: left;
   font-size: 1.25rem;
   font-family: "Lexend", "sans-serif";
@@ -185,7 +185,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .thirdContainerCosts {
+  .thirdContainerCosts,
+  .fourthContainerCosts {
     flex-direction: column;
     display: flex;
     text-align: center;
@@ -193,12 +194,14 @@
     justify-content: center;
     padding-left: 0;
   }
-  .thirdDescriptionCosts {
+  .thirdDescriptionCosts,
+  .fourthDescriptionCosts {
     font-size: 1rem !important;
     width: 80vw !important;
     margin-top: 2vh;
   }
-  .costImgContainer > img {
+  .costImgContainer > img,
+  .imgContainer > img {
     width: 100vw;
     margin-left: auto;
     margin-top: 3vh;

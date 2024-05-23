@@ -67,3 +67,17 @@ th {
   font-family: "Open Sans", "sans-serif";
   font-size: 2rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .headingWorksCited {
+    font-size: 2rem !important;
+    text-align: center;
+    width: 80vw;
+  }
+  th {
+    font-size: 1.5rem;
+  }
+  td {
+    font-size: 1rem !important;
+  }
+}
