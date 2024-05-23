@@ -139,6 +139,30 @@
   text-decoration: underline;
 }
 
+.fourthContainerCosts{
+  display: flex;
+  width: 100vw;
+  box-sizing: border-box;
+  display: grid;
+  align-items: right;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-left: 6rem;
+  margin-top:-10px;
+}
+
+.fourthDescription {
+  text-align:left;
+  font-size: 1.25rem;
+  font-family: "Lexend", "sans-serif";
+  color: #aeaeae;
+  width: 62vw;
+}
+
 @media only screen and (max-width: 767px) {
   .firstContainerCosts {
     overflow: hidden;
