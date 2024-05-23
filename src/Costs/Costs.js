@@ -3,7 +3,7 @@ import "./Costs.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import table from "./summarycleanImage.png";
-import graph from "../assets/final_installation.jpeg"
+import graph from "../assets/final_installation.jpeg";
 
 const Costs = () => {
   return (
@@ -60,9 +60,31 @@ const Costs = () => {
           </div>
         </div>
         <div className="fourthContainerCosts">
-        <img className="wrap" src={graph} alt="graph" width="525px" />
-        <span class="fourthDescription"> The graph is clear: residential renewable energy prices have been steadily declining over the past few years. With solar and wind power becoming increasingly affordable, now is the perfect time for homeowners to make the switch. Not only will you save money in the long run, but you'll also be doing your part to protect the environment. Renewable energy sources like solar and wind are clean, sustainable, and virtually inexhaustible. By embracing these technologies, you'll reduce your carbon footprint and contribute to a greener, healthier planet for future generations. Don't miss out on this opportunity to join the renewable energy revolution and secure a brighter future for your home and our world.</span>
+          <div className="imgContainer">
+            <img className="wrap" src={graph} alt="graph" width="600px" />
+            <span className="credit">
+              (Image was obtained from{" "}
+              <a href="https://cleantechnica.com/2023/09/01/the-energy-technology-revolution-will-drive-renewable-energy-prices-even-lower/">
+                CleanTechnica
+              </a>
+              )
+            </span>
           </div>
+
+          <span class="fourthDescription">
+            Residential renewable energy prices have been steadily declining
+            over the past few years. With solar and wind power becoming
+            increasingly affordable, now is the perfect time for homeowners to
+            make the switch. Not only will you save money in the long run, but
+            you'll also be doing your part to protect the environment. Renewable
+            energy sources like solar and wind are clean, sustainable, and
+            virtually inexhaustible. By embracing these technologies, you'll
+            reduce your carbon footprint and contribute to a greener, healthier
+            planet for future generations. Don't miss out on this opportunity to
+            join the renewable energy revolution and secure a brighter future
+            for your home and our world.
+          </span>
+        </div>
       </div>
       <Footer />
     </>

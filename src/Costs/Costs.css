@@ -130,7 +130,7 @@
 .credit {
   color: #aeaeae;
   font-family: "Lexend", "sans-serif";
-  position:absolute; right:95px; top:1235px;
+  margin-left: 2vw;
 }
 
 .credit > a {
@@ -139,28 +139,34 @@
   text-decoration: underline;
 }
 
-.fourthContainerCosts{
+.fourthContainerCosts {
   display: flex;
   width: 100vw;
   box-sizing: border-box;
-  display: grid;
-  align-items: right;
-  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   text-align: left;
+  margin-right: auto;
+  margin-left: auto;
   justify-content: center;
   padding-bottom: 2rem;
+  gap: 3rem;
   padding-left: 6rem;
-  margin-top:-10px;
+  margin-top: 4vh;
 }
 
 .fourthDescription {
-  text-align:left;
+  text-align: left;
   font-size: 1.25rem;
   font-family: "Lexend", "sans-serif";
   color: #aeaeae;
-  width: 62vw;
+  width: 40vw;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 767px) {
